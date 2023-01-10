@@ -35,20 +35,22 @@
                 Cadastrar
             </h2>
         </head> 
-        
-        <label>
-            Nome:
-            <input type="text" id="nameRecord"/>
-        </label>
-        <label>
-            Quantidade:
-            <input type="number" id="ageRecord"/>
-        </label>
-        <button class="btnAdd" onclick="postRecord()">Cadastrar</button>
-        <ul id="listByPost"></ul>
+        <div class="containerWrapper">
+            <label>
+                Nome:
+                <input type="text" id="nameRecord"/>
+            </label><br>
+            <label>
+                QTD:
+                <input type="number" id="ageRecord"/>
+            </label>
+            <button class="btnAdd" onclick="postRecord()">Cadastrar</button>
+            <ul id="listByPost"></ul>
+        </div>
+       
     </section>
     <hr>
-    <section>
+    <section">
         <head>
             <h2>
                 Editar
@@ -64,26 +66,25 @@
             <button class="btnBuscar" onclick="getRecordToEdit()">Buscar</button>
         </div>
 
-        <h3>Editar:</h3>
-        <label>
-            Nome:
-            <input type="text" id="nameRecordEdit"/>
-        </label>
-        <label>
-            QTD:
-            <input type="number" id="ageRecordEdit"/>
-        </label>
-        <button class="btnEditar" onclick="putRecord()">Editar</button>
-        
-        <ul id="listByPost"></ul>
-    </section>
+        <div class="containerWrapper">
+            <h3>Editar:</h3>
+            <label>
+                Nome:
+                <input type="text" id="nameRecordEdit"/>
+            </label>
+            <label>
+                QTD:
+                <input type="number" id="ageRecordEdit"/>
+            </label>
+            <button class="btnEditar" onclick="putRecord()">Editar</button>
+            
+            <ul id="listByPost"></ul>
+        </div>
 
-    <hr>
-    <section>
         <head>
-            <h2>
-                Deletar
-            </h2>
+            
+            <h2>Deletar</h2>
+
         </head> 
 
         <div class="containerWrapper">
