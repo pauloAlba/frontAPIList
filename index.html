@@ -35,19 +35,17 @@
                 Cadastrar
             </h2>
         </head> 
-        <div class="containerWrapper">
-            <label>
-                Nome:
-                <input type="text" id="nameRecord"/>
-            </label><br>
-            <label>
-                QTD:
-                <input type="number" id="ageRecord"/>
-            </label>
-            <button class="btnAdd" onclick="postRecord()">Cadastrar</button>
-            <ul id="listByPost"></ul>
-        </div>
-       
+        
+        <label>
+            Nome:
+            <input type="text" id="nameRecord"/>
+        </label>
+        <label>
+            Quantidade:
+            <input type="number" id="ageRecord"/>
+        </label>
+        <button class="btnAdd" onclick="postRecord()">Cadastrar</button>
+        <ul id="listByPost"></ul>
     </section>
     <hr>
     <section>
@@ -66,21 +64,18 @@
             <button class="btnBuscar" onclick="getRecordToEdit()">Buscar</button>
         </div>
 
-        <div class="containerWrapper">
-            <h3>Editar:</h3>
-            <label>
-                Nome:
-                <input type="text" id="nameRecordEdit"/>
-            </label>
-            <label>
-                QTD:
-                <input type="number" id="ageRecordEdit"/>
-            </label>
-            <button class="btnEditar" onclick="putRecord()">Editar</button>
-            
-            <ul id="listByPost"></ul>
-        </div>
-      
+        <h3>Editar:</h3>
+        <label>
+            Nome:
+            <input type="text" id="nameRecordEdit"/>
+        </label>
+        <label>
+            QTD:
+            <input type="number" id="ageRecordEdit"/>
+        </label>
+        <button class="btnEditar" onclick="putRecord()">Editar</button>
+        
+        <ul id="listByPost"></ul>
     </section>
 
     <hr>
