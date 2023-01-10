@@ -35,17 +35,19 @@
                 Cadastrar
             </h2>
         </head> 
-        
-        <label>
-            Nome:
-            <input type="text" id="nameRecord"/>
-        </label>
-        <label>
-            QTD:
-            <input type="number" id="ageRecord"/>
-        </label>
-        <button class="btnAdd" onclick="postRecord()">Cadastrar</button>
-        <ul id="listByPost"></ul>
+        <div class="containerWrapper">
+            <label>
+                Nome:
+                <input type="text" id="nameRecord"/>
+            </label><br>
+            <label>
+                QTD:
+                <input type="number" id="ageRecord"/>
+            </label>
+            <button class="btnAdd" onclick="postRecord()">Cadastrar</button>
+            <ul id="listByPost"></ul>
+        </div>
+       
     </section>
     <hr>
     <section>
@@ -55,25 +57,30 @@
             </h2>
         </head> 
 
-        <h3>Buscar:</h3>
-        <label>
-            Id:
-            <input type="number" id="idRecordToEdit"/>
-        </label>
-        <button class="btnBuscar" onclick="getRecordToEdit()">Buscar</button>
+        <div class="containerWrapper">
+            <h3>Buscar:</h3>
+            <label>
+                Id:
+                <input type="number" id="idRecordToEdit"/>
+            </label>
+            <button class="btnBuscar" onclick="getRecordToEdit()">Buscar</button>
+        </div>
 
-        <h3>Editar:</h3>
-        <label>
-            Nome:
-            <input type="text" id="nameRecordEdit"/>
-        </label>
-        <label>
-            QTD:
-            <input type="number" id="ageRecordEdit"/>
-        </label>
-        <button class="btnEditar" onclick="putRecord()">Editar</button>
-        
-        <ul id="listByPost"></ul>
+        <div class="containerWrapper">
+            <h3>Editar:</h3>
+            <label>
+                Nome:
+                <input type="text" id="nameRecordEdit"/>
+            </label>
+            <label>
+                QTD:
+                <input type="number" id="ageRecordEdit"/>
+            </label>
+            <button class="btnEditar" onclick="putRecord()">Editar</button>
+            
+            <ul id="listByPost"></ul>
+        </div>
+      
     </section>
 
     <hr>
@@ -84,11 +91,15 @@
             </h2>
         </head> 
 
-        <label>
-            Id:
-            <input type="number" id="idRecordToDelete"/>
-        </label>
-        <button class="btnDeletar" onclick="deleteRecord()">Deletar</button>
+        <div class="containerWrapper">
+            <label>
+                Id:
+                <input type="number" id="idRecordToDelete"/>
+            </label>
+            <button class="btnDeletar" onclick="deleteRecord()">Deletar</button>
+        </div>
+
+      
     </section>
     <hr>
     <footer>
