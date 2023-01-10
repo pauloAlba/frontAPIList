@@ -27,3 +27,38 @@ ul{
 span{
   margin-left: 10px;
 }
+body section{
+  padding: 10px;
+}
+head, label, button, ul{
+  margin: 5px 0;
+}
+
+.btnAdd{
+  background-color: green;
+  border: none;
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+}
+.btnBuscar{
+  background-color: blue;
+  border: none;
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+}
+.btnEditar{
+  background-color: orange;
+  border: none;
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+}
+.btnDeletar{
+  background-color: red;
+  border: none;
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+}

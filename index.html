@@ -22,7 +22,7 @@
     <section class="todosOsRegistros">
         <head>
             <h2>
-                Todos os registros
+                Todos os Produtos
             </h2>
         </head>
         
@@ -44,7 +44,7 @@
             Quantidade:
             <input type="number" id="ageRecord"/>
         </label>
-        <button onclick="postRecord()">Cadastrar</button>
+        <button class="btnAdd" onclick="postRecord()">Cadastrar</button>
         <ul id="listByPost"></ul>
     </section>
     <hr>
@@ -60,7 +60,7 @@
             Id:
             <input type="number" id="idRecordToEdit"/>
         </label>
-        <button onclick="getRecordToEdit()">Buscar</button>
+        <button class="btnBuscar" onclick="getRecordToEdit()">Buscar</button>
 
         <h3>Editar:</h3>
         <label>
@@ -71,7 +71,7 @@
             Quantidade:
             <input type="number" id="ageRecordEdit"/>
         </label>
-        <button onclick="putRecord()">Editar</button>
+        <button class="btnEditar" onclick="putRecord()">Editar</button>
         
         <ul id="listByPost"></ul>
     </section>
@@ -88,7 +88,7 @@
             Id:
             <input type="number" id="idRecordToDelete"/>
         </label>
-        <button onclick="deleteRecord()">Deletar</button>
+        <button class="btnDeletar" onclick="deleteRecord()">Deletar</button>
     </section>
     <hr>
     <footer>
