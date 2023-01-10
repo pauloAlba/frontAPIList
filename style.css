@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: whitesmoke;
+  height: 100%;
+}
 h1{
   padding: 10px;
   text-align: center;
@@ -75,4 +79,11 @@ head, label, button, ul{
   padding: 8px;
   color: white;
   border-radius: 5px;
+}
+
+footer{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
 }
